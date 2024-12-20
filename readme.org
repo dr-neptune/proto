@@ -1,3 +1,10 @@
 * Tinkering with Clojure + Clojurescript
 
 Not sure what to do with it yet
+
+* Done so far
+<2024-12-19 Thu>
+- A simple app is working
+- split the backend into a layered architecture
+- made an app that lets the user generate a brownian motion and
+  generate it on a canvas
