@@ -1,0 +1,11 @@
+* <2024-12-19 Thu> Begin!
+- get a basic scaffold working for clojure / cljs
+
+** Idea
+make a simple brownian motion plotter in which the user can interact
+with the parameters and show it on the frontend. Maybe we can add
+plots / controls / etc?
+
+Would this be better to contain entirely on the frontend? Split across
+front and backend? Should we start setting up a layered architecture
+for the app? How do namespaces work in clojure?

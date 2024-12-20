@@ -1,0 +1,3 @@
+* Tinkering with Clojure + Clojurescript
+
+Not sure what to do with it yet

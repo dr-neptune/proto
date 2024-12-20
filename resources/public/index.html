@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proto Brownian Motion</title>
+    <style>
+        #canvas {
+            border: 1px solid #ccc;
+        }
+
+        #controls {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="controls">
+        Steps: <input id="steps" type="number" value="1000" />
+        Step-size: <input id="step-size" type="number" value="1.0" step="0.1" />
+        <button id="draw-button">Draw Brownian Motion</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="400"></canvas>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

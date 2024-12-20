@@ -1,0 +1,10 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds
+ {:app
+  {:target :browser
+   :output-dir "resources/public/js"
+   :output-to "resources/public/js/main.js"
+   :asset-path "/js"
+   :modules {:main {:init-fn proto.client.core/init}}
+   :devtools {:watch-dir "resources/public"}}}}
